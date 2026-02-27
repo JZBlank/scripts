@@ -61,7 +61,7 @@ def main():
     
     days_left = calculate_valid_days_left(current_date=current_date, end_date=end_date)
     
-    went_in_office = {1:[22,27,28,29], 2:[3,4,5,10,11,12,18,19], 3:[], 4:[], 5:[], 6:[], 7:[], 8:[], 9:[], 10:[], 11:[], 12:[]}
+    went_in_office = {1:[22,27,28,29], 2:[3,4,5,10,11,12,18,19,26], 3:[], 4:[], 5:[], 6:[], 7:[], 8:[], 9:[], 10:[], 11:[], 12:[]}
 
     for i in range(1, 13):
         print(highlight_dates(year, i, went_in_office))
